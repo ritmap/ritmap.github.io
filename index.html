@@ -1,7 +1,46 @@
 <!doctype html>
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="css/leaflet.css"/>
+    <script src="js/leaflet.js"></script>
+    <title>Rit Map</title>
+    
+    <!-- Plug in the map information -->
+    <script type = "text/javascript">
+        window.onload=function() {
+            // Create Map
+            var map = L.map('map').setView([51.505, -0.09], 13);
+
+            // Pull from the OSM API
+            var osmURL = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+
+            // In order to use open street map, we need to attribute to it.
+            var osmAttrib = 'Map Data &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+            
+            // Create the OSM layer.
+            var osm = new L.TileLayer(osmURL, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});
+
+            // Set the map to start at RIT at zoom level 15.
+            map.setView(new L.LatLng(43.085, -77.678419), 15);
+            
+            // Add the osm layer to the map
+            map.addLayer(osm);
+
+            // Create the icon.
+            var icon = L.icon({
+                iconUrl:"img/marker-icon.png",
+                iconSize: [25,41],
+                iconAnchor:[12.5, 41],
+                popupAnchor:[0, -30],
+            });
+        }
+    </script>
+    
 </head>
 <body>
     <h1>Hello world!</h1>
+    <div id = "map" style = "height:500px; width:1000px;">
+    </div>
+    <noscript><p>Javascript is required... Sorry :(</p></noscript>
 </body>
 </html>
