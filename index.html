@@ -3,6 +3,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link type="text/css" rel="stylesheet" href="css/leaflet.css"/>
     <script src="js/leaflet.js"></script>
+    <script src="js/data.js"></script>
     <title>Rit Map</title>
     
     <!-- Plug in the map information -->
@@ -28,11 +29,25 @@
 
             // Create the icon.
             var icon = L.icon({
-                iconUrl:"img/marker-icon.png",
+                iconUrl:"media/marker-icon.png",
                 iconSize: [25,41],
                 iconAnchor:[12.5, 41],
                 popupAnchor:[0, -30],
             });
+
+            // Insert the data.
+            for (i = 0; i < mapData.mapData.length; ++i) {
+                var data = mapData.mapData[i];
+                var markerHTML = '<p><strong>' + data.title + '</strong></p>';
+                markerHTML += '<p><img src="media/places/' + data.image + '" alt="' + data.image + '"/></p>';
+                markerHTML += '<p>' + data.desc + '</p>';
+                var newPopup = L.popup({maxWidth:700})
+                                   .setContent(markerHTML);
+                var newMarker = L.marker([data.lat, data.lon])
+                                    .setIcon(icon)
+                                    .addTo(map)
+                                    .bindPopup(newPopup);
+            }
         }
     </script>
     
