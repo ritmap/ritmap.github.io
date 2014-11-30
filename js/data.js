@@ -1,3 +1,12 @@
+/**
+ * Title: The name of the area.
+ * lat:   Latitude GPS coordinates
+ * lon:   Longitude GPS coordinates
+ * desc:  A description.  Describe the feature here.
+ *        Feel free to add links (need <a href=""></a>) if you want.
+ * image: The image name located in media/places.
+ */
+
 var mapData = {"mapData": [
     {"title" : "Computer Engineering Department",
      "lat" : 43.0845,
