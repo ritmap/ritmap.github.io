@@ -39,15 +39,24 @@
             // Insert the data.
             for (i = 0; i < mapData.mapData.length; ++i) {
                 var data = mapData.mapData[i];
-                var markerHTML = '<p><strong>' + data.title + '</strong></p>';
-                markerHTML += '<p><img src="media/places/' + data.image + '" alt="' + data.image + '"/></p>';
+                var markerHTML = '<div class = "center">';
+                markerHTML += '<p><strong>' + data.title + '</strong></p>';
+                if (data.image != "") {
+                    markerHTML += '<p><img src="media/places/' + data.image + '" alt="' + data.image + '"/></p>';
+                }
+                else {
+                    markerHTML += '<p><a href="https://github.com/ritmap/ritmap.github.io#submitting-content"><img src="media/no_image.png" alt="no image"/></a></p>';
+                }                
                 markerHTML += '<p>' + data.desc + '</p>';
-                var newPopup = L.popup({maxWidth:700})
+                markerHTML += '</div>';
+                var newPopup = L.popup({maxWidth:500})
                                    .setContent(markerHTML);
                 var newMarker = L.marker([data.lat, data.lon])
                                     .setIcon(icon)
                                     .addTo(map)
-                                    .bindPopup(newPopup);
+                                    // Must open then close the popup, or the image will appear
+                                    // outside of it.
+                                    .bindPopup(newPopup).openPopup().closePopup();
             }
         }
     </script>
@@ -57,9 +66,9 @@
     <a href="https://github.com/ritmap/ritmap.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
 
     <h1>Hello world!</h1>
+    <noscript><p>Javascript is required... Sorry :(</p></noscript>
     <div id = "map" style = "height:500px; width:1000px;">
     </div>
-    <noscript><p>Javascript is required... Sorry :(</p></noscript>
 </body>
 </html>
 
