@@ -42,10 +42,12 @@
                 var markerHTML = '<div class = "center">';
                 markerHTML += '<p><strong>' + data.title + '</strong></p>';
                 if (data.image != "") {
-                    markerHTML += '<p><img src="media/places/' + data.image + '" alt="' + data.image + '"/></p>';
+                    markerHTML += '<p><a href = "media/places/' + data.image + '" target = "_blank">';
+                    markerHTML += '<img src="media/places/' + data.image + '" alt="' + data.image + '"/></p></a>';
                 }
                 else {
-                    markerHTML += '<p><a href="https://github.com/ritmap/ritmap.github.io#submitting-content"><img src="media/no_image.png" alt="no image"/></a></p>';
+                    markerHTML += '<p><a href="https://github.com/ritmap/ritmap.github.io#submitting-content" target="_blank">';
+                    markerHTML += '<img src="media/no_image.png" alt="no image"/></a></p>';
                 }                
                 markerHTML += '<p>' + data.desc + '</p>';
                 markerHTML += '</div>';
