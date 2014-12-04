@@ -5,6 +5,7 @@
  * desc:  A description.  Describe the feature here.
  *        Feel free to add links (need <a href=""></a>) if you want.
  * image: The image name located in media/places.
+ *        If there is no image, leave it an empty string.
  */
 
 var mapData = {"mapData": [
@@ -29,7 +30,7 @@ var mapData = {"mapData": [
 	{"title" : "Unity Sculpture",
 	 "lat"   : 43.08518,
 	 "lon"   : -77.67841,
-	 "desc"  : 'Built as a tribute to the <a href="http://en.wikipedia.org/wiki/Gracies_Dinnertime_Theatre">Gracie\'s Dinnertime Theater</a>',
+	 "desc"  : 'Built as a tribute to the <a href="http://en.wikipedia.org/wiki/Gracies_Dinnertime_Theatre" target="_blank">Gracie\'s Dinnertime Theater</a>',
 	 "image" : ""
 	},
 ]
