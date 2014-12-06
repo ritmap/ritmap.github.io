@@ -57,6 +57,12 @@ var mapData = {"mapData": [
      "desc"  : 'This is a round fountain that is "soaped" as a prank.  If you soap it, you are a jerk.  Seriously, its not funny anymore.',
      "image" : ""
     },
+    {"title" : "Engineering Learning Center",
+     "lat"   : 43.08437917,
+     "lon"   : -77.67751444,
+     "desc"  : 'Located inside of Erdle Commons in Building 9.  Its an area for studing and tutoring for Engineering Students. <a href="http://www.rit.edu/~w-asc/tutoring-centers.php" target="_blank">More information, including hours.</a>',
+     "image" : "elc.jpg"
+    },
 ]
 };
 
