@@ -45,7 +45,7 @@ var mapData = {"mapData": [
      "lat"   :43.08560682,
      "lon"   :-77.6674977489165,
      "desc"  : 'A wall just outside of Sol Humane Hall. It is curved in such a way that one person sitting at one end of the wall can whisper and another person at the other end of the wall can hear them clearly.',
-     "image" : "wisper_wall.png"
+     "image" : "wisper_wall.PNG"
     },
     {"title" :"Tojo Memorial Garden",
      "lat"   :43.0849609342262,
