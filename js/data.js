@@ -24,7 +24,7 @@ var mapData = {"mapData": [
     {"title" : "The Sentinal",
      "lat"   : 43.0846,
      "lon"   : -77.67434,
-     "desc"  : "The Sentinal.  A sculpture made by Albert Paley.  Some say it looks like a knight riding a horse.  Others say its someone reading.  Some say its a mess.  One thing is for sure though... it is unique!",
+     "desc"  : "The Sentinal.  A sculpture made by Albert Paley.  Some say it looks like a knight riding a horse.  Others say its someone reading.  There are rumors that this is the infamous weather machine.  One thing is for sure though... it is unique!",
      "image" : ""
     },
     {"title" : "Unity Sculpture",
@@ -74,6 +74,12 @@ var mapData = {"mapData": [
      "lon"   : -77.67698094,
      "desc"  : 'This is a statue that spins in the wind.  Apparently, when the sun shines through it, it casts a shadow that shows the infinity symbol, hence the name "Infinity Quad".  Personally, I\'ve never seen the shadow :(</p><p>Image from Reddit user oi_rohe',
      "image" : "infinity_quad.jpg"
+    },
+    {"title" : "Greek Rock",
+     "lat"   : 43.08411215,
+     "lon"   : -77.67288094,
+     "desc"  : 'This rock is always painted by various clubs and Greek Life.</p><p>Image from <a href="http://ritsammy.com" target="_blank">ritsammy.com</a>',
+     "image" : "greek_rock.jpg"
     },
 ]
 };
