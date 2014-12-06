@@ -31,7 +31,7 @@ var mapData = {"mapData": [
 	 "lat"   : 43.08518,
 	 "lon"   : -77.67841,
 	 "desc"  : 'Built as a tribute to the <a href="http://en.wikipedia.org/wiki/Gracies_Dinnertime_Theatre" target="_blank">Gracie\'s Dinnertime Theater</a>',
-	 "image" : ""
+	 "image" : "unity.jpg"
 	},
 	{"title" : "Transformers Logos",
 	 "lat"   : 43.08439306,

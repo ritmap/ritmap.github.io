@@ -39,7 +39,7 @@
             // Insert the data.
             for (i = 0; i < mapData.mapData.length; ++i) {
                 var data = mapData.mapData[i];
-                var markerHTML = '<div class = "center">';
+                var markerHTML = '<div class = "center" style="overflow:auto;">';
                 markerHTML += '<p><strong>' + data.title + '</strong></p>';
                 if (data.image != "") {
                     markerHTML += '<p><a href = "media/places/' + data.image + '" target = "_blank">';
@@ -69,7 +69,7 @@
 
     <h1>RIT's Most Interesting Locations</h1>
     <noscript><p>Javascript is required... Sorry :(</p></noscript>
-    <div class="center" id="map" style = "height:500px; width:1000px;">
+    <div class="center" id="map" style = "height:750px; width:1000px;">
     </div>
 </body>
 </html>
