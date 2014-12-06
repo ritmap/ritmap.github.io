@@ -27,24 +27,30 @@ var mapData = {"mapData": [
      "desc"  : "The Sentinal.  A sculpture made by Albert Paley.  Some say it looks like a knight riding a horse.  Others say its someone reading.  Some say its a mess.  One thing is for sure though... it is unique!",
      "image" : ""
     },
-	{"title" : "Unity Sculpture",
-	 "lat"   : 43.08518,
-	 "lon"   : -77.67841,
-	 "desc"  : 'Built as a tribute to the <a href="http://en.wikipedia.org/wiki/Gracies_Dinnertime_Theatre" target="_blank">Gracie\'s Dinnertime Theater</a>',
-	 "image" : "unity.jpg"
-	},
-	{"title" : "Transformers Logos",
-	 "lat"   : 43.08439306,
-	 "lon"   : -77.67861361,
-	 "desc"  : 'A fun little easter egg located in the basement of Building 17.',
-	 "image" : "transformers.jpg"
-	},
-	{"title" : "Four Monitors",
-	 "lat"   : 43.08443556,
-	 "lon"   : -77.67749111,
-	 "desc"  : 'Found in the tunnels under Building 9.  It reads "Earth provides enough to satisfy every man\'s need but not every man\'s greed".',
-	 "image" : "four_monitors.jpg"
-	}
+    {"title" : "Unity Sculpture",
+     "lat"   : 43.08518,
+     "lon"   : -77.67841,
+     "desc"  : 'Built as a tribute to the <a href="http://en.wikipedia.org/wiki/Gracies_Dinnertime_Theatre" target="_blank">Gracie\'s Dinnertime Theater</a>',
+     "image" : "unity.jpg"
+    },
+    {"title" : "Transformers Logos",
+     "lat"   : 43.08439306,
+     "lon"   : -77.67861361,
+     "desc"  : 'A fun little easter egg located in the basement of Building 17.',
+     "image" : "transformers.jpg"
+    },
+    {"title" : "Four Monitors",
+     "lat"   : 43.08443556,
+     "lon"   : -77.67749111,
+     "desc"  : 'Found in the tunnels under Building 9.  It reads "Earth provides enough to satisfy every man\'s need but not every man\'s greed".',
+     "image" : "four_monitors.jpg"
+    },
+    {"title" : "Pizza for Sale",
+     "lat"   : 43.08443528,
+     "lon"   : -77.6775,
+     "desc"  : 'Almost every week day during the year, Pizza is sold here in Building 9.',
+     "image" : "9_pizza.jpg"
+    },
 ]
 };
 
