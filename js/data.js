@@ -33,6 +33,12 @@ var mapData = {"mapData": [
 	 "desc"  : 'Built as a tribute to the <a href="http://en.wikipedia.org/wiki/Gracies_Dinnertime_Theatre" target="_blank">Gracie\'s Dinnertime Theater</a>',
 	 "image" : ""
 	},
+	{"title" : "Transformers Logos",
+	 "lat"   : 43.08439306,
+	 "lon"   : -77.67861361,
+	 "desc"  : 'A fun little easter egg located in the basement of Building 17.',
+	 "image" : "transformers.jpg"
+	}
 ]
 };
 
