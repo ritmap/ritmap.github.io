@@ -54,8 +54,8 @@ var mapData = {"mapData": [
     {"title" : "Round Fountain",
      "lat"   : 43.08322726,
      "lon"   : -77.67840,
-     "desc"  : 'This is a round fountain that is "soaped" as a prank.  If you soap it, you are a jerk.  Seriously, its not funny anymore.',
-     "image" : ""
+     "desc"  : 'This is a round fountain that is "soaped" as a prank.  If you soap it, you are a jerk.  Seriously, its not funny anymore.  I hear there\'s a camera watching it now.</p><p>Image from Reddit user got2bhockey',
+     "image" : "round_fountain.jpg"
     },
     {"title" : "Engineering Learning Center",
      "lat"   : 43.08437917,
