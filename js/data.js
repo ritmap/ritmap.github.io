@@ -38,6 +38,12 @@ var mapData = {"mapData": [
 	 "lon"   : -77.67861361,
 	 "desc"  : 'A fun little easter egg located in the basement of Building 17.',
 	 "image" : "transformers.jpg"
+	},
+	{"title" : "Four Monitors",
+	 "lat"   : 43.08443556,
+	 "lon"   : -77.67749111,
+	 "desc"  : 'Found in the tunnels under Building 9.  It reads "Earth provides enough to satisfy every man\'s need but not every man\'s greed".',
+	 "image" : "four_monitors.jpg"
 	}
 ]
 };
