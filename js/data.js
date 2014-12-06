@@ -1,11 +1,13 @@
 /**
- * Title: The name of the area.
- * lat:   Latitude GPS coordinates
- * lon:   Longitude GPS coordinates
- * desc:  A description.  Describe the feature here.
- *        Feel free to add links (need <a href=""></a>) if you want.
- * image: The image name located in media/places.
- *        If there is no image, leave it an empty string.
+ * title - The name of the location or feature
+ * lat - The latitude GPS coordinates of the location or feature.  This should be positive.
+ * lon - The longitude GPS coordinates of the location or feature.  This should be negative.
+ * desc - Description of the area.  Please use a meaningful description if possible.  
+ *        If more information can be found on another site, add a link to it.
+ *        To add a url, use the html tag <a href="url" target="_blank">link description</a>.
+ *        To add a new line, type </p><p>. If you do not want a new line, do not include these tags.
+  * image - The image file name.  Please place the image in media/places.  
+  *         Set the field to "" if there is no image.
  */
 
 var mapData = {"mapData": [
