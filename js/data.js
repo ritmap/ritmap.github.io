@@ -63,6 +63,12 @@ var mapData = {"mapData": [
      "desc"  : 'Located inside of Erdle Commons in Building 9.  Its an area for studing and tutoring for Engineering Students. <a href="http://www.rit.edu/~w-asc/tutoring-centers.php" target="_blank">More information, including hours.</a>',
      "image" : "elc.jpg"
     },
+    {"title" : "Lehigh Valley Trail",
+     "lat"   : 43.092565,
+     "lon"   : -77.65399222,
+     "desc"  : 'The northern branch of the Lehigh Valley Trail runs along the east end of campus.  The northern branch appears to go all the way up to U of R. <a href="http://www2.monroecounty.gov/parks-lehighvalley.php" target="_blank">More info</a>',
+     "image" : "lehigh_valley_trail.jpg"
+    },
 ]
 };
 
