@@ -69,6 +69,12 @@ var mapData = {"mapData": [
      "desc"  : 'The northern branch of the Lehigh Valley Trail runs along the east end of campus.  The northern branch appears to go all the way up to U of R. <a href="http://www2.monroecounty.gov/parks-lehighvalley.php" target="_blank">More info</a>',
      "image" : "lehigh_valley_trail.jpg"
     },
+    {"title" : "Infinity Quad Statue",
+     "lat"   : 43.08424179,
+     "lon"   : -77.67698094,
+     "desc"  : 'This is a statue that spins in the wind.  Apparently, when the sun shines through it, it casts a shadow that shows the infinity symbol, hence the name "Infinity Quad".  Personally, I\'ve never seen the shadow :(</p><p>Image from Reddit user oi_rohe',
+     "image" : "infinity_quad.jpg"
+    },
 ]
 };
 
