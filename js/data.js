@@ -41,6 +41,60 @@ var mapData = {"mapData": [
      "desc"  : 'A fun little easter egg located in the basement of Building 17.',
      "image" : "transformers.jpg"
     },
+    {"title" :"Whisper Wall",
+     "lat"   :43.08560682,
+     "lon"   :-77.6674977489165,
+     "desc"  : 'A wall just outside of Sol Humane Hall. It is curved in such a way that one person sitting at one end of the wall can whisper and another person at the other end of the wall can hear them clearly.',
+     "image" : "wisper_wall.png"
+    },
+    {"title" :"Tojo Memorial Garden",
+     "lat"   :43.0849609342262,
+     "lon"   :-77.6756586134433,
+     "desc"  : 'This garden located outside Eastman in the Kodak Quad was created by student Yasuji Tojo in memory of his parents.',
+     "image" : "zen_garden.jpg"
+    },
+    {"title" :"Dr. Albert Simone",
+     "lat"   :43.0917881826932,
+     "lon"   :-77.6559309661388,
+     "desc"  : 'A life sized bronze statue of Dr. Albert Simone, retired RIT President. He was instrumental in the creation of the Park Point and Barnes and Noble part of campus. His statue stands near the book store overlooking the Park Point green.',
+     "image" : "albert_simone_v.jpg"
+    },
+    {"title" :"Elevated Track",
+     "lat"   :43.0848621191564,
+     "lon"   :-77.6717627048492,
+     "desc"  : 'Located above the basketball courts inside the Gordon Field House, the elevated track is accessible for recreational use.',
+     "image" : ""
+    },
+    {"title" :"Boxing Room",
+     "lat"   :43.0850580122468,
+     "lon"   :-77.6711243391037,
+     "desc"  : 'Located at the far end of the basketball courts inside the Gordon Field House, the boxing room is a great place to practice martial arts or just blow off some steam.',
+     "image" : ""
+    },
+    {"title" :"Writing Center",
+     "lat"   :43.0840981309609,
+     "lon"   :-77.6745629310607,
+     "desc"  : 'Located in the SAU, the writing center is a good place for students to check over their written work and be given valuable advice to improve their writing skills.',
+     "image" : ""
+    },
+    {"title" :"Tiger Statue",
+     "lat"   :43.0841918327929,
+     "lon"   :-77.6755405962467,
+     "desc"  : 'Created November 10, 1989, the Bronzed Bengel Tiger Statue represets RIT’s mascot which was adopted in 1963. Also known as the ‘guardian of the quarter mile’',
+     "image" : "tiger_statue.jpg"
+    },
+    {"title" :"Archery Range",
+     "lat"   :43.08954535,
+     "lon"   :-77.67218381,
+     "desc"  : 'Located at the far end of the soccer field near the RIT entrance, the Archery Club as a portion of the field to shoot, including their storage shed. ',
+     "image" : "archery.jpg"
+    },
+    {"title" :"The Construct",
+     "lat"   :43.08513724,
+     "lon"   :-77.67914146,
+     "desc"  : 'On the fourth floor of Institute Hall is a lab called The Construct where 3D printers are maintained. They allow free printing up to 500 grams per person each semester.',
+     "image" : "construct.jpg"
+    },
     {"title" : "Four Monitors",
      "lat"   : 43.08443556,
      "lon"   : -77.67749111,
@@ -89,6 +143,25 @@ var mapData = {"mapData": [
      "desc"  : 'The RIT Observatory on John Street.',
      "image" : ""
     },
+    {"title" : "Margaret's House",
+     "lat"   :43.085648,
+     "lon"   : -77.669062,
+     "desc"  : 'Margaret\’s House provides childcare for children between the ages of 8 weeks and 8 years old.  <a href="http://www.rit.edu/studentaffairs/margaretshouse/" target="_blank">Click here for more information</a>',
+     "image" : ""
+    },
+    {"title" : "Center for Computational Relativity and Gravity",
+     "lat"   : 43.08436306632919,
+     "lon"   : -77.68093720078468,
+     "desc"  : '<a href="http://ccrg.rit.edu/" target="_blank">Click for more information</a>',
+     "image" : "black_hole.jpg"
+    },
+{"title" : "Society of Software Engineers",
+     "lat"   : 43.08386361,
+     "lon"   :-77.67971056,
+     "desc"  : 'Student Organization that partipate in mentoring, software projects, and social activities.  <a href="https://sse.se.rit.edu/" target="_blank">Click for more information</a></p><p>Image from the SSE website.',
+     "image" : "sse.jpg"
+    },
 ]
 };
+
 
