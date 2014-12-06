@@ -81,6 +81,12 @@ var mapData = {"mapData": [
      "desc"  : 'This rock is always painted by various clubs and Greek Life.</p><p>Image from <a href="http://ritsammy.com" target="_blank">ritsammy.com</a>',
      "image" : "greek_rock.jpg"
     },
+    {"title" : "RIT Observatory",
+     "lat"   : 43.07514983318591,
+     "lon"   : -77.66415059566498,
+     "desc"  : 'The RIT Observatory on John Street.',
+     "image" : ""
+    },
 ]
 };
 
