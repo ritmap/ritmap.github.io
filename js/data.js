@@ -51,6 +51,12 @@ var mapData = {"mapData": [
      "desc"  : 'Almost every week day during the year, Pizza is sold here in Building 9.',
      "image" : "9_pizza.jpg"
     },
+    {"title" : "Round Fountain",
+     "lat"   : 43.08322726,
+     "lon"   : -77.67840,
+     "desc"  : 'This is a round fountain that is "soaped" as a prank.  If you soap it, you are a jerk.  Seriously, its not funny anymore.',
+     "image" : ""
+    },
 ]
 };
 
