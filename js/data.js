@@ -84,8 +84,8 @@ var mapData = {"mapData": [
      "image" : "greek_rock.jpg"
     },
     {"title" : "RIT Observatory",
-     "lat"   : 43.07514983318591,
-     "lon"   : -77.66415059566498,
+     "lat"   : 43.075100460230544,
+     "lon"   : -77.6638676226139,
      "desc"  : 'The RIT Observatory on John Street.',
      "image" : ""
     },
