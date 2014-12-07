@@ -167,6 +167,12 @@ var mapData = {"mapData": [
      "desc"  : 'A time capsule buried outside Monroe Hall in 2005 for RIT\'s 175th anniversary.  Who knows what\'s inside?',
      "image" : "time_capsule.jpg"
     },
+    {"title" : "Book Recycling",
+     "lat"   : 43.08418010022605,
+     "lon"   :-77.67643377184868,
+     "desc"  : 'The library sometimes recycles old books in the tunnels between the library and the Liberal Arts Building.  Check often to see if there is one you want to take.  They are free!',
+     "image" : "book_recycle.jpg"
+    },
 ]
 };
 
