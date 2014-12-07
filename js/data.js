@@ -147,7 +147,7 @@ var mapData = {"mapData": [
      "lat"   :43.085648,
      "lon"   : -77.669062,
      "desc"  : 'Margaret\’s House provides childcare for children between the ages of 8 weeks and 8 years old.  <a href="http://www.rit.edu/studentaffairs/margaretshouse/" target="_blank">Click here for more information</a>',
-     "image" : ""
+     "image" : "margaret_house.jpg"
     },
     {"title" : "Center for Computational Relativity and Gravity",
      "lat"   : 43.08436306632919,
@@ -155,7 +155,7 @@ var mapData = {"mapData": [
      "desc"  : '<a href="http://ccrg.rit.edu/" target="_blank">Click for more information</a>',
      "image" : "black_hole.jpg"
     },
-{"title" : "Society of Software Engineers",
+	{"title" : "Society of Software Engineers",
      "lat"   : 43.08386361,
      "lon"   :-77.67971056,
      "desc"  : 'Student Organization that partipate in mentoring, software projects, and social activities.  <a href="https://sse.se.rit.edu/" target="_blank">Click for more information</a></p><p>Image from the SSE website.',
