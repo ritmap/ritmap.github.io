@@ -179,6 +179,12 @@ var mapData = {"mapData": [
      "desc"  : 'A statue of the Tau Beta Pi logo. Tau Beta Pi is an honor society at RIT.  Read more <a href = "http://ritpedia.rit.edu/Tau_Beta_Pi" target="_blank">here.</a>',
      "image" : "tbp.jpg"
     },
+    {"title" : "Cloaked Intention",
+     "lat"   : 43.084715,
+     "lon"   :-77.68107,
+     "desc"  : 'A statue made by Albert Paley.  It is dedicated to Ann Mowris Mulligan.  The statue is almost 20 feet tall and made of weathering steel.',
+     "image" : "cloaked_intention.jpg"
+    },
 ]
 };
 
