@@ -23,11 +23,11 @@ var mapData = {"mapData": [
      "desc"  : "The Sundial",
      "image" : ""
     },
-    {"title" : "The Sentinal",
+    {"title" : "The Sentinel",
      "lat"   : 43.0846,
      "lon"   : -77.67434,
-     "desc"  : "The Sentinal.  A sculpture made by Albert Paley.  Some say it looks like a knight riding a horse.  Others say its someone reading.  There are rumors that this is the infamous weather machine.  One thing is for sure though... it is unique!",
-     "image" : ""
+     "desc"  : "The Sentinel.  A sculpture made by Albert Paley.  Some say it looks like a knight riding a horse.  Others say its someone reading.  There are rumors that this is the infamous weather machine.  One thing is for sure though... it is unique!",
+     "image" : "sentinel.jpg"
     },
     {"title" : "Unity Sculpture",
      "lat"   : 43.08518,
