@@ -161,6 +161,12 @@ var mapData = {"mapData": [
      "desc"  : 'Student Organization that partipate in mentoring, software projects, and social activities.  <a href="https://sse.se.rit.edu/" target="_blank">Click for more information</a></p><p>Image from the SSE website.',
      "image" : "sse.jpg"
     },
+    {"title" : "Time Capsule",
+     "lat"   : 43.084186,
+     "lon"   :-77.675318,
+     "desc"  : 'A time capsule buried outside Monroe Hall in 2005 for RIT\'s 175th anniversary.  Who knows what\'s inside?',
+     "image" : "time_capsule.jpg"
+    },
 ]
 };
 
