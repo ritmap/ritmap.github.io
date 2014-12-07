@@ -173,6 +173,12 @@ var mapData = {"mapData": [
      "desc"  : 'The library sometimes recycles old books in the tunnels between the library and the Liberal Arts Building.  Check often to see if there is one you want to take.  They are free!',
      "image" : "book_recycle.jpg"
     },
+    {"title" : "Tau Beta Pi Statue",
+     "lat"   : 43.08423,
+     "lon"   :-77.67738998,
+     "desc"  : 'A statue of the Tau Beta Pi logo. Tau Beta Pi is an honor society at RIT.  Read more <a href = "http://ritpedia.rit.edu/Tau_Beta_Pi" target="_blank">here.</a>',
+     "image" : "tbp.jpg"
+    },
 ]
 };
 
