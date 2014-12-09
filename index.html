@@ -41,7 +41,7 @@
             // Insert the data.
             for (i = 0; i < mapData.mapData.length; ++i) {
                 var data = mapData.mapData[i];
-                var markerHTML = '<div class = "center" style="overflow:auto;">';
+                var markerHTML = '<div class = "center" style="overflow:auto;color:black;">';
                 markerHTML += '<p><strong>' + data.title + '</strong></p>';
                 if (data.image != "") {
                     markerHTML += '<p><a href = "media/places/' + data.image + '" target = "_blank">';
@@ -50,7 +50,7 @@
                 else {
                     markerHTML += '<p><a href="https://github.com/ritmap/ritmap.github.io#submitting-content" target="_blank">';
                     markerHTML += '<img src="media/no_image.png" alt="no image"/></a></p>';
-                }                
+                } 
                 markerHTML += '<p>' + data.desc + '</p>';
                 markerHTML += '</div>';
                 var newPopup = L.popup({maxWidth:500})
@@ -89,7 +89,7 @@
     </div>
 
     <div class="footer l-box is-center">
-            Created by RIT students for RIT students. Contribute: <a href="https://github.com/ritmap/ritmap.github.io">github.com/ritmap/ritmap.github.io</a>
+            Created by RIT students for RIT students. Contribute: <a href="https://github.com/ritmap/ritmap.github.io#submitting-content" target="_blank">https://github.com/ritmap/ritmap.github.io</a>
     </div>
 </body>
 </html>
