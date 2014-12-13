@@ -20,8 +20,8 @@ var mapData = {"mapData": [
     {"title" : "Sundial",
      "lat"   : 43.08436,
      "lon"   : -77.66916,
-     "desc"  : "The Sundial",
-     "image" : ""
+     "desc"  : "The Sundial.  It marks the beginning of the Quarter Mile.</p><p>Image from Reddit user agargiulo.",
+     "image" : "sun_dial.jpg"
     },
     {"title" : "The Sentinel",
      "lat"   : 43.0846,
