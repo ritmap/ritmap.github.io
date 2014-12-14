@@ -1,5 +1,6 @@
 RIT's Most Interesting Features
 ================
+Live at [ritmap.github.io](http://ritmap.github.io)
 
 RIT is a massive campus. There are few things that stand out on this campus such as the Tiger Statue, the Sundial, the fountain that is always soaped, and that funky statue in the middle of the infinity quad. But... did you know RIT has an observatory just off campus? How about the time capsule that's buried just outside the ramp to Monroe Hall? Do you know what that statue between Building 9 and Institute Hall represents? Or did you know that RIT has a fitness lab that does exercise program creation and fitness evaluation? The fact is there are several really cool hidden landmarks, features, and services here at RIT that people might be missing out on.
 
