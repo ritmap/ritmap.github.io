@@ -185,6 +185,24 @@ var mapData = {"mapData": [
      "desc"  : 'A statue made by Albert Paley.  It is dedicated to Ann Mowris Mulligan.  The statue is almost 20 feet tall and made of weathering steel.',
      "image" : "cloaked_intention.jpg"
     },
+    {"title" : "Miller Road",
+     "lat"   : 43.076,
+     "lon"   : -77.67,
+     "desc"  : "A private, unpaved road off the campus loop. Great place for running, just beware the mosquitoes.",
+     "image" : "miller_road.jpg"
+    },
+    {"title" : "RIT Fuel Cell",
+     "lat"   : 43.086,
+     "lon"   : -77.681,
+     "desc"  : "A fuel cell that helps power the institute of sustainability. The vapor you see coming out of it on cold days is clean, pure water vapor.",
+     "image" : "gis_fuel_cell.jpg"
+    },
+    {"title" : "GIS Rooftop Garden",
+     "lat"   : 43.085,
+     "lon"   : -77.682,
+     "desc"  : "The Golisano Institute of Sustainability rooftop garden. Another array of solar panels that help power the building are also in this area.",
+     "image" : "gis_rooftop_garden.jpg"
+    },
 ]
 };
 
