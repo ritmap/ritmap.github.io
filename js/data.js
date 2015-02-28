@@ -1,12 +1,12 @@
-/**
+/*
  * title - The name of the location or feature
  * lat - The latitude GPS coordinates of the location or feature.  This should be positive.
  * lon - The longitude GPS coordinates of the location or feature.  This should be negative.
- * desc - Description of the area.  Please use a meaningful description if possible.  
+ * desc - Description of the area.  Please use a meaningful description if possible.
  *        If more information can be found on another site, add a link to it.
  *        To add a url, use the html tag <a href="url" target="_blank">link description</a>.
  *        To add a new line, type </p><p>. If you do not want a new line, do not include these tags.
-  * image - The image file name.  Please place the image in media/places.  
+  * image - The image file name.  Please place the image in media/places.
   *         Set the field to "" if there is no image.
  */
 
@@ -184,6 +184,12 @@ var mapData = {"mapData": [
      "lon"   :-77.68107,
      "desc"  : 'A statue made by Albert Paley.  It is dedicated to Ann Mowris Mulligan.  The statue is almost 20 feet tall and made of weathering steel.',
      "image" : "cloaked_intention.jpg"
+    },
+    {"title" : "Student Financial Services",
+     "lat"   : 43.08338162,
+     "lon"   :-77.6800855,
+     "desc"  : '"The Office of the Student Financial Services is RIT’s central billing service center for tuition, fees, and other charges incurred by students." <a href="http://www.rit.edu/fa/sfs/" target="_blank">-SFS Website</a></p><p>Note, these guys are NOT Financial Aid.  Financial Aid is over in Bausch and Lomb.</p><p>',
+     "image" : "sfs.jpg"
     },
     {"title" : "Miller Road",
      "lat"   : 43.076,
