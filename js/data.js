@@ -209,6 +209,12 @@ var mapData = {"mapData": [
      "desc"  : "The Golisano Institute of Sustainability rooftop garden. Another array of solar panels that help power the building are also in this area.",
      "image" : "gis_rooftop_garden.jpg"
     },
+	{"title" : "Solar Array",
+     "lat"   : 43.075779,
+     "lon"   : -77.669809,
+     "desc"  : 'RIT\'s Massive Solar Array.  See a video <a href="https://www.youtube.com/watch?v=LNWaK08Zd78" target="_blank">here</a>.',
+     "image" : "solar_array.jpg"
+    },
 ]
 };
 
