@@ -215,6 +215,12 @@ var mapData = {"mapData": [
      "desc"  : 'RIT\'s Massive Solar Array.  See a video <a href="https://www.youtube.com/watch?v=LNWaK08Zd78" target="_blank">here</a>.',
      "image" : "solar_array.jpg"
     },
+    {"title" : "Welcome Center",
+     "lat"   : 43.08598,
+     "lon"   : -77.674458,
+     "desc"  : "The Welcome center",
+     "image" : "welcome_center.jpg"
+    }
 ]
 };
 
