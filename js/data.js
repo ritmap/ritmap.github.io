@@ -220,7 +220,13 @@ var mapData = {"mapData": [
      "lon"   : -77.674458,
      "desc"  : "The Welcome center",
      "image" : "welcome_center.jpg"
-    }
+    },
+    {"title" : "Kokopelli Pond",
+     "lat"   : 43.088315,
+     "lon"   : -77.679697,
+     "desc"  : "A small pond near H lot.</p><p>Apparently there are fish in here, as many students are seen fishing.</p><p>I wonder if they've ever caught anything?",
+     "image" : "kokopelli_pond.jpg"
+    },
 ]
 };
 
