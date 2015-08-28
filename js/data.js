@@ -221,6 +221,12 @@ var mapData = {"mapData": [
      "desc"  : "The Welcome center",
      "image" : "welcome_center.jpg"
     },
+    {"title" : "Split Cube",
+     "lat"   : 43.087580161,
+     "lon"   : -77.6682040873,
+     "desc"  : "A steel cube outside of the Lyndon Baines Johnson Building.</p><p>Created by Carl Zollo to celebrate NTID's 10 anniversary in 1978.",
+     "image" : "split_cube.jpg"
+    },
     {"title" : "Kokopelli Pond",
      "lat"   : 43.088315,
      "lon"   : -77.679697,
