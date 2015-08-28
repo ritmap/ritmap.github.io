@@ -50,7 +50,7 @@ var mapData = {"mapData": [
     {"title" :"Tojo Memorial Garden",
      "lat"   :43.0849609342262,
      "lon"   :-77.6756586134433,
-     "desc"  : 'This garden located outside Eastman in the Kodak Quad was created by student Yasuji Tojo in memory of his parents.',
+     "desc"  : 'This garden located outside Eastman in the Kodak Quad was created by the parents of Yasuji Tojo in his memory.',
      "image" : "zen_garden.jpg"
     },
     {"title" :"Dr. Albert Simone",
@@ -110,7 +110,7 @@ var mapData = {"mapData": [
     {"title" : "Round Fountain",
      "lat"   : 43.08322726,
      "lon"   : -77.67840,
-     "desc"  : 'This is a round fountain that is "soaped" as a prank.  If you soap it, you are a jerk.  Seriously, its not funny anymore.  I hear there\'s a camera watching it now.</p><p>Image from Reddit user got2bhockey',
+     "desc"  : 'This is a Round Fountain.  I have nothing more to add.</p><p>Image from Reddit user got2bhockey',
      "image" : "round_fountain.jpg"
     },
     {"title" : "Engineering Learning Center",
