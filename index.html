@@ -18,6 +18,7 @@
         }
     </style>
     <title>RIT Map</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
 
     <!-- Plug in the map information -->
     <script type = "text/javascript">
@@ -54,20 +55,26 @@
             // Insert the data.
             for (i = 0; i < mapData.mapData.length; ++i) {
                 var data = mapData.mapData[i];
-                var markerHTML = '<div class = "center" style="overflow:auto;color:black;">';
-                markerHTML += '<p><strong>' + data.title + '</strong></p>';
-                if (data.image != "") {
-                    markerHTML += '<p><a href = "media/places/' + data.image + '" target = "_blank">';
-                    markerHTML += '<img src="media/places/' + data.image + '" alt="' + data.image + '"/></p></a>';
+                if (data.image === "") {
+                  data.image = "no_image.png";
                 }
-                else {
-                    markerHTML += '<p><a href="https://github.com/ritmap/ritmap.github.io#submitting-content" target="_blank">';
-                    markerHTML += '<img src="media/no_image.png" alt="no image"/></a></p>';
-                }
-                markerHTML += '<p>' + data.desc + '</p>';
-                markerHTML += '</div>';
-                var popupOffset = L.point(0, 55);
-                var newPopup = L.popup({maxWidth:500, autoPanPaddingTopLeft: popupOffset})
+
+                var markerHTML =
+                  Mustache.render(
+                    '<div class="center" \
+                     style="overflow:auto;color:black;">\
+                     <p><strong>{{title}}</strong></p>\
+                     <p><a href="media/places/{{image}}"\
+                     target="_blank"><img src="media/places/{{image}}"\
+                     alt="{{image}}" />\
+                     </a></p>\
+                     <p>{{{desc}}}</p>\
+                     </div>',
+                    data
+                  );
+
+                  var popupOffset = L.point(0, 55);
+                  var newPopup = L.popup({maxWidth:500, autoPanPaddingTopLeft: popupOffset})
                                    .setContent(markerHTML);
 
                 var newMarker = L.marker([data.lat, data.lon])
