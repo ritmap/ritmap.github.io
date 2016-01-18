@@ -66,8 +66,10 @@
                 }
                 markerHTML += '<p>' + data.desc + '</p>';
                 markerHTML += '</div>';
-                var newPopup = L.popup({maxWidth:500})
+                var popupOffset = L.point(0, 55);
+                var newPopup = L.popup({maxWidth:500, autoPanPaddingTopLeft: popupOffset})
                                    .setContent(markerHTML);
+
                 var newMarker = L.marker([data.lat, data.lon])
                                     .setIcon(icon)
                                     .addTo(map)
