@@ -4,7 +4,7 @@
  * \param filters to apply.  Any image that does not meet the 
  *        filter(s) does not get added to the map.
  */
-function LoadMap(iconPath, filters)
+function LoadMap(filters)
 {
     // Create Map
     var map = L.map('map', {zoomControl: false}).setView([51.505, -0.09], 13);
@@ -25,32 +25,32 @@ function LoadMap(iconPath, filters)
     // Add the osm layer to the map
     map.addLayer(osm);
 
-    // Create the icon.
-    var icon = L.icon({
-        iconUrl:iconPath,
-        iconSize: [25,41],
-        iconAnchor:[12.5, 41],
-        popupAnchor:[0, -30],
-    });
-
     var zoom = new L.Control.Zoom({ position: 'bottomleft' });
     zoom.addTo(map);
     // Insert the data.
     for (i = 0; i < mapData.mapData.length; ++i) {        
         var data = mapData.mapData[i];
         
-        var add = false;
-        for (f = 0; (f < data.filter.length) && (add == false); ++f) {
+        var foundFilter = null;
+        for (f = 0; (f < data.filter.length) && (foundFilter == null); ++f) {
             if (filters.indexOf(data.filter[f]) > -1)
             {
-                add = true;
+                foundFilter = data.filter[f];
             }
         }
         
-        if (add == false)
+        if (foundFilter == null)
         {
             continue;
         }
+        
+        // Create the icon.
+        var icon = L.icon({
+            iconUrl:GetMarkerImage(foundFilter),
+            iconSize: [25,41],
+            iconAnchor:[12.5, 41],
+            popupAnchor:[0, -30],
+        });
         
         var markerHTML = '<div class = "center" style="overflow:auto;color:black;">';
         markerHTML += '<p><strong>' + data.title + '</strong></p>';

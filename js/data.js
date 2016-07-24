@@ -20,6 +20,23 @@ var Filter;
     Filter[Filter["POKESTOP"] = 2] = "POKESTOP";      // If the place is a pokestop in Pokemon Go.
 })(Filter || (Filter = {}));
 
+/**
+ * \brief Gets the image from the filter.
+ */
+function GetMarkerImage(filter){
+    switch(filter)
+    {
+        case Filter.GYM:
+            return "media/pokegym.png";
+            
+        case Filter.POKESTOP:
+            return "media/pokestop.png";
+            
+        default:
+            return "media/marker-icon.png";
+    }
+}
+
 var mapData = {"mapData": [
     {"title" : "Computer Engineering Department",
      "lat" : 43.0845,
