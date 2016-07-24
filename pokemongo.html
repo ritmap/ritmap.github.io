@@ -18,12 +18,12 @@
             width: 100%;
         }
     </style>
-    <title>RIT Map</title>
+    <title>RIT Pokestop Locations</title>
 
     <!-- Plug in the map information -->
     <script type = "text/javascript">
         window.onload=function() {
-            LoadMap("media/marker-icon.png", [Filter.NOTHING]);
+            LoadMap("media/marker-icon.png", [Filter.GYM, Filter.POKESTOP]);
         }
     </script>
 
@@ -31,7 +31,7 @@
 <body>
     <div class="header">
         <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed pure-menu-responsive">
-            <a class="pure-menu-heading" href="/">RIT's Most Interesting Locations</a>
+            <a class="pure-menu-heading" href="/">RIT's Pokestop Locations</a>
 
             <ul>
             </ul>
