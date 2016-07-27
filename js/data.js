@@ -52,6 +52,13 @@ var mapData = {"mapData": [
      "image" : "",
      "filter" : [Filter.NOTHING, Filter.POKESTOP]
     },
+    {"title" : "Zen Garden",
+     "lat" : 43.085182,
+     "lon" : -77.678804,
+     "desc" : "A zen garden outside of Institute Hall.",
+     "image" : "",
+     "filter" : [Filter.NOTHING, Filter.POKESTOP]
+    },
     {"title" : "Global Village Sign",
      "lat" : 43.082934,
      "lon" : -77.679601,
@@ -148,6 +155,13 @@ var mapData = {"mapData": [
      "lon"   :-77.6755405962467,
      "desc"  : 'Created November 10, 1989, the Bronzed Bengel Tiger Statue represets RIT’s mascot which was adopted in 1963. Also known as the ‘guardian of the quarter mile’',
      "image" : "tiger_statue.jpg",
+     "filter" : [Filter.NOTHING, Filter.POKESTOP]
+    },
+    {"title" : "Golisano College of Information and Sciences",
+     "lat" : 43.084766,
+     "lon" : -77.679935,
+     "desc" : "Home of Software Engineering, IT, Computer Science, Computer Security, and many more majors!",
+     "image" : "",
      "filter" : [Filter.NOTHING, Filter.POKESTOP]
     },
     {"title" :"Archery Range",
@@ -267,7 +281,7 @@ var mapData = {"mapData": [
      "lon"   :-77.68107,
      "desc"  : 'A statue made by Albert Paley.  It is dedicated to Ann Mowris Mulligan.  The statue is almost 20 feet tall and made of weathering steel.',
      "image" : "cloaked_intention.jpg",
-     "filter": [Filter.NOTHING]
+     "filter": [Filter.NOTHING, Filter.GYM]
     },
     {"title" : "Student Financial Services",
      "lat"   : 43.08338162,
