@@ -5,3 +5,9 @@ body {
 .center {
     text-align:center;
 }
+
+@media only screen and (max-width: 600px) {
+    .hide-on-small-screen {
+        display: none;
+    }
+}
